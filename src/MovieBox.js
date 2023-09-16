@@ -24,7 +24,8 @@ const MovieBox = ({
           <button type="button" className="btn btn-info" onClick={handleShow}>
             View More
           </button>
-          <a href={id} className="text-decoration-none"><button className="btn btn-primary mt-3">See More</button></a>
+          <br></br>
+          <a href={id} className="text-decoration-none">See More</a>
           <Modal show={show} onHide={handleClose}>
             <Modal.Header closeButton>
               <Modal.Title></Modal.Title>
